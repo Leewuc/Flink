@@ -5,7 +5,7 @@ import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 public class DataStreamExample {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throw Exception{
         // Flink 스트리밍 실행 환경을 생성
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 
